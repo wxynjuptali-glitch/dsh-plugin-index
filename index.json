@@ -1,0 +1,412 @@
+{
+  "format": 1,
+  "title": "DSH 官方实验性插件",
+  "description": "DeepSeek Harness 0.2.2-rc.1 可用的官方实验性组合包",
+  "metadata": {
+    "categories": {},
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@deepseek-ai/dsh-experimental-terminal-bundle",
+      "title": "终端会话",
+      "description": "跨工具调用保持 shell 进程存活，避免每次重开环境",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783821,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-search",
+      "title": "历史会话搜索",
+      "description": "让 Agent 搜索并阅读当前工作区的历史会话",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783585,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-ralph-bundle",
+      "title": "Ralph 循环",
+      "description": "用全新 Agent 执行你明确要求的重复性工作",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783547,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-auto-review",
+      "title": "自动审批",
+      "description": "为 Auto 权限预设提供逐工具的 LLM 授权审查",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783397,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-agent-team-profile",
+      "title": "Agent 团队",
+      "description": "Agent 协作、工具与 Web UI 的一体化实验组合",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783414,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-titles-bundle",
+      "title": "会话标题刷新",
+      "description": "随着新的用户提问到来刷新会话标题",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783684,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-cot-translation-bundle",
+      "title": "思维链翻译",
+      "description": "对展开的推理过程做机器翻译",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783437,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-voice-input-bundle",
+      "title": "语音输入",
+      "description": "本地 SenseVoice 语音输入，首次使用时下载运行时",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783567,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-tool-worktree",
+      "title": "Git 工作树",
+      "description": "创建并进入新 Git worktree 的模型工具",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783613,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-forge-bundle",
+      "title": "变更请求面板",
+      "description": "Git 仓库中会话的变更请求面板与 worktree 选项",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783446,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-inspector-profile",
+      "title": "会话检查器",
+      "description": "查看原始会话日志与对话节点的可选 Web 组合",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783514,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-liveshare",
+      "title": "LiveShare",
+      "description": "通过独立 Relay 共享会话，支持只读或受限写入",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783472,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-personalized-recommendations",
+      "title": "个性化推荐",
+      "description": "在回答下方以卡片形式提供个性化页面与插件推荐",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783756,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-badge-skill-bundle",
+      "title": "徽章技能",
+      "description": "以可发现的技能形式提供 powered-by-dsh 徽章",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783385,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-subagent-claude-code",
+      "title": "Claude Code 子代理",
+      "description": "基于官方 Agent SDK 的一次性 Claude Code 子代理",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783648,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-subagent-codex",
+      "title": "Codex 子代理",
+      "description": "基于官方 app-server 协议的一次性 Codex 子代理",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "bundle"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.1",
+          "publishTimestamp": 1793783694,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.2-rc.1"
+          }
+        }
+      ]
+    }
+  ]
+}
